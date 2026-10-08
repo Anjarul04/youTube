@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
+
 import { closeMenu } from "../utils/appSlice";
 import { useSearchParams } from "react-router-dom";
 import user from "../assets/user.png";
